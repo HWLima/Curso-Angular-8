@@ -1,0 +1,11 @@
+Links importantes:
+
+Angular: https://angular.io/
+
+NodeJS: https://nodejs.org/en/download/
+
+NPM: https://www.npmjs.com/
+
+Angular CLI: https://cli.angular.io/
+
+Console Cmder: https://cmder.net/
