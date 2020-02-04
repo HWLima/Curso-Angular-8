@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./data-binding.component.css']
 })
 export class DataBindingComponent implements OnInit {
-
+  numero: number;
   constructor() { }
+  ngOnInit() { }
 
-  ngOnInit() {
+  obtemNumero(numero: number){
+    this.numero = numero + 654;
   }
 
 }
