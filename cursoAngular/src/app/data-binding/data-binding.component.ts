@@ -11,7 +11,7 @@ export class DataBindingComponent implements OnInit {
   ngOnInit() { }
 
   obtemNumero(numero: number) {
-    this.numero = numero + 654;
+    this.numero = numero + 365 ;
   }
 
 }
