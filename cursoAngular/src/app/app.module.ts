@@ -8,6 +8,8 @@ import { SegundoComponenteComponent } from './segundo-componente/segundo-compone
 import { TerceiroComponenteComponent } from './terceiro-componente/terceiro-componente.component';
 import { NgIfForComponent } from './ng-if-for/ng-if-for.component';
 import { CrudComponent } from './componentes/crud/crud.component';
+import { LazyloadingModule } from './modules/lazyloading/lazyloading.module';
+
 
 @NgModule({
   declarations: [
@@ -16,12 +18,13 @@ import { CrudComponent } from './componentes/crud/crud.component';
     SegundoComponenteComponent,
     TerceiroComponenteComponent,
     NgIfForComponent,
-    CrudComponent
+    CrudComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    LazyloadingModule,
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]

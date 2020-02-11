@@ -6,6 +6,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 
 const routes: Routes = [
+
+  { path: '', component: NgIfForComponent},
+  { path: 'lazy', loadChildren: () => import('./modules/lazyloading/lazyloading.module').then(m => m.LazyloadingModule)},
+
   { path: 'primeiro-componente', component: DataBindingComponent },
   { path: 'segundo-componente', component: SegundoComponenteComponent },
   { path: 'terceiro-componente', component: TerceiroComponenteComponent },
